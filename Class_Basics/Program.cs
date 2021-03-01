@@ -8,16 +8,13 @@ namespace Class_Basics
         {
             //create an object of the class human
             // an "instance" of Human
-            Human anna = new Human();
-            // access public variable form outside, and change it
-            anna.firstName = "Anna";
-            anna.lastName = "Bell";
+            Human anna = new Human("Anna","Wagner");
+            
+            
             // call methods of the class
             anna.Introduction();
 
-            Human michael = new Human();
-            michael.firstName = "Michael";
-            michael.lastName = "Smith";
+            Human michael = new Human("Michael","Smith");
             michael.Introduction();
         }
     }
